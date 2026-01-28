@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fizzy • IRL Sylveon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fizzy – fursuiter, programmer, musician, degen">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">fizzysylv<span>.xyz</span></a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Stuff I Make</a>
+        <a href="#skills">Things I Mess With</a>
+        <a href="blog.fizzysylv.xyz">Blog</a>
+        <a href="#contact">Socials</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">welcome, silly billy</p>
+
+          <h1>Hi, I’m <span class="accent">Fizzy</span>!</h1>
+          <p class="hero-subtitle">
+            I’m a fursuiter, programmer, musician, and occasional AV goblin.
+            I build weird tools, write code for fun, and run around in suit
+
+            being a menace (affectionate).
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Find me online</a>
+            <a class="btn outline" href="/blog/">Open blog.log</a>
+          </div>
+          <p class="hero-note">
+
+            Currently juggling fursuiting, code, con work, and too many ideas at once.
+          </p>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <!-- swap this with a fursuit or avatar pic if you want -->
+            <img src="assets/img/profile.jpg" alt="Fizzy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <h2>About Fizzy</h2>
+          <p>
+            I exist somewhere between <strong>fursuiting</strong>,
+            <strong>programming</strong>, and <strong>music</strong>. Some days
+            I’m hacking on Discord bots and systems stuff, other days I’m
+            bouncing around at a con in suit, and sometimes I remember that my
+            bass guitar misses me.
+
+          </p>
+          <p>
+            I like building things that feel a little bit cursed but still
+            genuinely useful: automation for communities, strange little tools,
+            scheduling helpers, and whatever else my brain fixates on this week.
+          </p>
+        </div>
+        <div class="highlight-box">
+          <h3>Current obsessions</h3>
+          <ul>
+            <li>Fursuiting at cons and local events.</li>
+            <li>Programming Discord bots and backend tools.</li>
+            <li>Messing with Rust, C++, and other low-level shenanigans.</li>
+            <li>Playing and writing music when my brain lets me focus.</li>
+            <li>Documenting chaos on <a href="/blog/">the blog</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects / Stuff I Make -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Stuff I Make</h2>
+        <p class="section-intro">
+          A non-exhaustive list of projects, experiments, and ongoing chaos.
+        </p>
+
+
+        <div class="card-grid">
+          <!-- Project 1 -->
+          <article class="card">
+
+            <h3>Discord Bots & Tools</h3>
+            <p>
+
+              Bots for servers I hang out in: custom currency, mimic accounts,
+              scheduling helpers, and random quality-of-life features that probably
+              shouldn’t work as well as they do.
+            </p>
+            <ul class="tag-list">
+              <li>Rust / C++</li>
+              <li>Discord API</li>
+              <li>Automation</li>
+            </ul>
+            <p class="card-links">
+              <a href="https://github.com/your-github-here" target="_blank" rel="noopener">
+                view repos
+
+              </a>
+            </p>
+          </article>
+
+
+          <!-- Project 2 -->
+          <article class="card">
+            <h3>Scheduling & Management Apps</h3>
+            <p>
+              Web apps for organizing humans: mechanic shop management systems,
+              pool scheduling, and other “I was tired of doing this by hand”
+              projects.
+
+            </p>
+            <ul class="tag-list">
+              <li>Web stuff</li>
+              <li>Databases</li>
+              <li>Too many spreadsheets</li>
+            </ul>
+            <p class="card-links">
+
+              <a href="/blog/" >
+                read dev logs
+              </a>
+            </p>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card">
+            <h3>Music & Audio Experiments</h3>
+            <p>
+              Writing songs, playing bass, experimenting with plugins, and
+              occasionally screaming at DAWs until they work the way I want.
+            </p>
+            <ul class="tag-list">
+              <li>Bass guitar</li>
+              <li>Songwriting</li>
+              <li>Noise but in a good way</li>
+            </ul>
+            <p class="card-links">
+              <a href="#">(coming soon) music home</a>
+            </p>
+          </article>
+
+
+          <!-- Project 4 -->
+          <article class="card">
+            <h3>Con AV & Tech Shenanigans</h3>
+            <p>
+              Helping run video and tech at conventions: cameras, switchers,
+              routing, and the thrill of keeping everything alive while a show
+              is happening.
+            </p>
+            <ul class="tag-list">
+              <li>PTZ cams</li>
+              <li>Blackmagic gear</li>
+              <li>Controlled chaos</li>
+            </ul>
+            <p class="card-links">
+              <a href="/blog/">
+                con stories
+              </a>
+            </p>
+          </article>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Skills / Things I Mess With -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Things I Mess With</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Tech & Code</h3>
+            <ul>
+
+              <li>Rust, C, C++</li>
+              <li>Python, Go (a bit)</li>
+              <li>SQL, databases, data wrangling</li>
+              <li>Discord bots & APIs</li>
+              <li>Linux, servers, general yak-shaving</li>
+            </ul>
+
+          </div>
+          <div>
+            <h3>Creative Stuff</h3>
+            <ul>
+              <li>Fursuiting & character performance</li>
+              <li>Music, bass guitar, songwriting</li>
+              <li>Video production & streaming</li>
+              <li>Overlay / UI tinkering</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Other Brainworms</h3>
+            <ul>
+              <li>Cryptography & security tidbits</li>
+              <li>Silly little automation scripts</li>
+              <li>Making spreadsheets do crimes</li>
+              <li>Turning problems into projects</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Socials / Contact -->
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Socials</h2>
+        <p class="section-intro">
+          Best way to reach me is through socials. I lurk online a lot.
+        </p>
+
+        <div class="contact-grid">
+          <div>
+            <p>
+              Need to get in touch, ask about a project, or just yell about
+
+              something cool you built? Ping me on Twitter or wherever below
+              and I’ll probably see it.
+            </p>
+          </div>
+          <div class="contact-links">
+            <p>
+              <strong>Twitter:</strong>
+              <a href="https://twitter.com/Sinnaminty" target="_blank" rel="noopener">
+                @Sinnaminty
+              </a>
+            </p>
+
+            <p>
+              <strong>GitHub:</strong>
+              <a href="https://github.com/Sinnaminty" target="_blank" rel="noopener">
+                github.com/Sinnaminty
+              </a>
+
+            </p>
+
+            <p>
+              <strong>Twitch:</strong>
+              <a href="https://www.twitch.tv/sinnaminty" target="_blank" rel="noopener">
+                twitch.tv/sinnaminty
+              </a>
+            </p>
+
+            <p>
+              <strong>Discord:</strong>
+                @Sinnaminty
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Fizzy • fizzysylv.xyz</p>
+      <p><a href="blog.fizzysylv.xyz">open blog</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
